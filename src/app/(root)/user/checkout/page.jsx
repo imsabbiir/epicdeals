@@ -22,7 +22,6 @@ export default function CheckoutPage() {
     postalCode: "",
     phone: "",
   });
-  console.log(cart, "selected cart product in the payment page");
   const [cardNumbers, setCardNumbers] = useState(["", "", "", ""]);
   const [expiry, setExpiry] = useState("");
   const [cvv, setCvv] = useState("");
